@@ -1,0 +1,56 @@
+/* src/components/RecentOrders/RecentOrders.css */
+.recent-orders {
+  background-color: #2a2a3c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.recent-orders h2 {
+  margin-bottom: 15px;
+}
+
+.recent-orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-orders th,
+.recent-orders td {
+  padding: 10px;
+  text-align: left;
+}
+
+.recent-orders th {
+  color: #6c6c7c;
+  font-weight: normal;
+}
+
+.recent-orders tr {
+  border-bottom: 1px solid #3a3a4c;
+}
+
+.recent-orders tr:last-child {
+  border-bottom: none;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.status.delivered {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4CAF50;
+}
+
+.status.cancelled {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #F44336;
+}
+
+.status.pending {
+  background-color: rgba(255, 152, 0, 0.1);
+  color: #FF9800;
+}

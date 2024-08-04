@@ -1,0 +1,44 @@
+/* src/components/CustomerFeedback/CustomerFeedback.css */
+.customer-feedback {
+  background-color: #2a2a3c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.customer-feedback h2 {
+  margin-bottom: 15px;
+}
+
+.feedback-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #3a3a4c;
+}
+
+.feedback-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.rating {
+  color: #FFD700;
+}
+
+.comment {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin: 0;
+}

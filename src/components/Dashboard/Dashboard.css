@@ -1,0 +1,60 @@
+/* src/components/Dashboard/Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px 30px;
+  overflow-y: auto;
+}
+
+.dashboard-content h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.activity-chart {
+  flex: 2;
+}
+
+.dashboard-sidebar {
+  flex: 1;
+}
+
+.quick-menu {
+  background-color: #1e1e2d;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #a0a0a0;
+}
+
+.menu-item .icon {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item .arrow {
+  color: #6c6c7c;
+}

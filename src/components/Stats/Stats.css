@@ -1,0 +1,47 @@
+/* src/components/Stats/Stats.css */
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  background-color: #1e1e2d;
+  border-radius: 10px;
+  padding: 15px;
+  flex: 1;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #6c6c7c;
+}
+
+.stat-item p {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.increase {
+  color: #4CAF50;
+}
+
+.decrease {
+  color: #F44336;
+}
+
+.net-profit {
+  display: flex;
+  flex-direction: column;
+}
+
+.profit-percentage {
+  margin-top: auto;
+}
+
+.profit-percentage svg {
+  width: 60px;
+  height: 60px;
+}
